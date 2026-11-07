@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* 
+ * Oculta visualmente la barra de desplazamiento.
+ * El carrusel sigue funcionando con mouse y touch.
+ */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Navegadores antiguos */
+}
+
+/* Chrome, Brave, Edge y Safari */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* 
+ * Oculta visualmente la barra de desplazamiento.
+ * El carrusel sigue funcionando con mouse y touch.
+ */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Navegadores antiguos */
+}
+
+/* Chrome, Brave, Edge y Safari */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
